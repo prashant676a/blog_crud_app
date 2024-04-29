@@ -11,24 +11,25 @@ This project is a blog application where authenticated users can create, update,
 ## Project Structure
 
 The project directory structure is as follows:
+
+```
 blog-crud/
 │
 ├── backend/
-│ ├── backend/ # Django project folder
-│ ├── core/ # Django app folder
-│ ├── manage.py # Django manage.py file
-│ └── requirements.txt # Django requirements.txt file
+│   ├── backend/            # Django project folder
+│   ├── core/               # Django app folder
+│   ├── manage.py           # Django manage.py file
+│   └── requirements.txt    # Django requirements.txt file
 │
-├── frontend/
-│ ├── public/ # React public folder
-│ ├── src/ # React source folder
-│ │ ├── components/ # React components folder
-│ │ ├── App.js # React main component
-│ │ ├── index.js # React entry point
-│ │ └── ... # Other React files
-│ └── package.json # React package.json file
-│
-└── README.md # Project README file
+└── frontend/
+    ├── public/             # React public folder
+    ├── src/                # React source folder
+    │   ├── components/     # React components folder
+    │   ├── App.js          # React main component
+    │   ├── index.js        # React entry point
+    │   └── ...             # Other React files
+    └── package.json        # React package.json file
+```
 
 
 ## Setup
