@@ -34,27 +34,33 @@ blog-crud/
 
 ## Setup
 
+1. Clone the github repo
+
+    ```bash
+    git clone https://github.com/prashant676a/blog_crud_app.git .
+    ```
+
 ### Backend (Django)
 
-1. Navigate to the `backend` folder:
+2. Navigate to the `backend` folder:
 
     ```bash
     cd backend
     ```
 
-2. Install dependencies:
+3. Install dependencies:
 
     ```bash
     pip install -r requirements.txt
     ```
 
-3. Run migrations:
+4. Run migrations:
 
     ```bash
     python manage.py migrate
     ```
 
-4. Start the Django development server:
+5. Start the Django development server:
 
     ```bash
     python manage.py runserver
